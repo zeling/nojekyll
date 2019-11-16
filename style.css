@@ -1,0 +1,53 @@
+/* blatantly copied from http://bettermotherfuckingwebsite.com/ */
+body{
+    margin:40px auto;
+    max-width:650px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:0 10px
+}
+
+h1,h2,h3{
+    line-height: 1.2
+}
+
+
+/* style override for header and footer */
+.header h1{
+    color:#000;
+    text-align:center;
+}
+
+.header .navbar{
+    display:flex;
+    justify-content:center;
+}
+
+.header .navbar div{
+    margin:0px 75px;
+}
+
+.header .navbar a{
+    font-weight:bold;
+}
+
+.header .navbar a:link{
+    text-decoration:none;
+    color:#444;
+}
+
+.header .navbar a:visited{
+    text-decoration:none;
+    color:#444;
+}
+
+.header .navbar a:hover{
+    text-decoration:underline;
+    color:#444;
+}
+
+.header .navbar a:active{
+    text-decoration:none;
+    color:#444;
+}
