@@ -51,3 +51,13 @@ h1,h2,h3{
     text-decoration:none;
     color:#444;
 }
+
+.license a img {
+    display:block;
+    margin:0 auto;
+}
+
+.license{
+    text-align: center;
+    font-size: x-small;
+}
