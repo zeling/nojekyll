@@ -9,7 +9,7 @@ POSTS_OUT := $(patsubst $(POSTS)/%.rkt,$(POSTS)/%.html,$(POSTS_SRC))
 all: index.html about.html $(POSTS_OUT)
 
 clean:
-	rm -f $(POSTS_OUT)
+	rm -f $(POSTS_OUT) index.html about.html
 
 %.html: %.rkt template.rkt
 	$(RACKET) -t $< > $@
