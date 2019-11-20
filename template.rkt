@@ -26,9 +26,9 @@
 
 (define (header)
     @div[class: "header"]{
-        @h1{Title}
+        @h1{Zeling's Blog}
         @hr
-        @(navbar "posts/hello" "about")
+        @(navbar "index" "about")
         @hr
     })
 

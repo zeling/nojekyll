@@ -12,7 +12,6 @@ clean:
 	rm -f $(POSTS_OUT)
 
 %.html: %.rkt template.rkt
-	rm -f $@
 	$(RACKET) -t $< > $@
 
 dbg:
