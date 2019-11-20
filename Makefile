@@ -6,7 +6,7 @@ POSTS_OUT := $(patsubst $(POSTS)/%.rkt,$(POSTS)/%.html,$(POSTS_SRC))
 
 .PHONY: all clean dbg
 
-all: about.html $(POSTS_OUT)
+all: index.html about.html $(POSTS_OUT)
 
 clean:
 	rm -f $(POSTS_OUT)
