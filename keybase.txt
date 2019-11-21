@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/zeling
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zeling.me
+  * I am zeling (https://keybase.io/zeling) on keybase.
+  * I have a public key ASCLoxSwxdY7bbtMQ82yhFYOmeW9ADEw-c5iGONd0el8QAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201137df94b88c07dba28a0e26c497de1f2c41613a7f461328958f87db5ac7e3ce0a",
+      "host": "keybase.io",
+      "kid": "01208ba314b0c5d63b6dbb4c43cdb284560e99e5bd003130f9ce6218e35dd1e97c400a",
+      "uid": "7d5c2c4dc6c877d5ee578cef8924c719",
+      "username": "zeling"
+    },
+    "merkle_root": {
+      "ctime": 1574304908,
+      "hash": "7306c94b469641e2709d298dd6d966180c7dae828add0b6c5820c7937347c08ac2a05858a33df5607fb51cc91e7dac30abcd77b441d37b2499e91d0c394a2b7c",
+      "hash_meta": "cfcb65ed8c3428c9aec001b7f94faa8ebe5aee23bc686fadd9cff55cdf6d0e01",
+      "seqno": 10383733
+    },
+    "service": {
+      "entropy": "1TKXUs9x7QvovdPnXm/T3DPR",
+      "hostname": "zeling.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1574304914,
+  "expire_in": 504576000,
+  "prev": "b84165b075ae03540daa573e397ffebba5bd6d5a8fec07faae4085635681b3fa",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgi6MUsMXWO227TEPNsoRWDpnlvQAxMPnOYhjjXdHpfEAKp3BheWxvYWTESpcCLcQguEFlsHWuA1QNqlc+OX/+u6W9bVqP7Af6rkCFY1aBs/rEIBPw0Xg9rzWb5ATPwR44/c0jYZwWvQIUM4YryygGIueEAgHCo3NpZ8RA72TysfO6ZGacLUU/lAfDhWlx1wkBZV2aLpY1W55zXBIn+Wz+AXFxvu7ub7WMKT7dTQZWXrjKet4xAT2A+Y6pDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICIKqm4SFRSesfCRImzXUHkdw+hxfFOzjAtWsUimgYvco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zeling
+
+==================================================================
