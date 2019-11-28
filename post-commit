@@ -1,0 +1,14 @@
+#!/bin/bash
+
+BRANCH=`git symbolic-ref --short HEAD`
+SHA1=`git rev-parse HEAD`
+
+# we only care about commits on master.
+if [ $BRANCH == "master" ]; then
+    make clean all # it is currently rebuilding everything
+    git checkout gh-pages
+    git add *.html posts/*.html
+    git commit -m "built from $SHA1"
+    git push
+    git checkout master
+fi
