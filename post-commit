@@ -10,7 +10,7 @@ function on_exit {
 trap on_exit EXIT
 
 # we only care about commits on master.
-if [ $BRANCH == "master" ] && grep -q "POST" <(git log -1 --oneline); then
+if [ $BRANCH == "master" ] && grep -q "UPDATE" <(git log -1 --oneline); then
     make clean all # it is currently rebuilding everything
     git checkout gh-pages
     git add *.html posts/*.html
