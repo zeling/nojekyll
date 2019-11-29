@@ -3,8 +3,14 @@
 BRANCH=`git symbolic-ref --short HEAD`
 SHA1=`git rev-parse HEAD`
 
+function on_exit {
+    git checkout master
+}
+
+trap on_exit EXIT
+
 # we only care about commits on master.
-if [ $BRANCH == "master" ]; then
+if [ $BRANCH == "master" ] && grep -q "POST" <(git log -1 --oneline); then
     make clean all # it is currently rebuilding everything
     git checkout gh-pages
     git add *.html posts/*.html
