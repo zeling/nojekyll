@@ -25,7 +25,7 @@
     (define (to-name p)
         (path->string (file-name-from-path p)))
     (define (post-order p1 p2)
-        (< (string->seconds (post-time p1)) (string->seconds (post-time p2))))
+        (> (string->seconds (post-time p1)) (string->seconds (post-time p2))))
     (let ([posts (for/list ([path (glob "posts/*.rkt")])
             (let ([title (get-attr path 'title "No title")]
                 [time ($ "git" "log" "-n" "1" "--pretty=%ad" "--date" "short" (path->string path))]
