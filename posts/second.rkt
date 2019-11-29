@@ -7,5 +7,5 @@
 (define title "Second post") 
 
 @render{
-This is going to be the second post!
+This is going to be the second post:)
 }
