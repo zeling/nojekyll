@@ -15,7 +15,7 @@ if [ $BRANCH == "master" ] && grep -q "UPDATE" <(git log -1 --oneline); then
     git stash --all
     git checkout gh-pages
     git checkout stash^3 -- .
-    git stash pop
+    git stash drop
     git add -f *.html posts/*.html
     git commit -m "built from $SHA1"
     git push
