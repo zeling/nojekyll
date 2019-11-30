@@ -16,3 +16,6 @@ clean:
 
 dbg:
 	@echo $(POSTS_OUT)
+
+preview: index.html
+	python -m SimpleHTTPServer

@@ -7,9 +7,9 @@
          scribble/html)
 
 
-(define (render content)
+(define (render . content)
     (output-xml @doctype{html})
-    (output-xml (page content)))
+    (output-xml (page @div[class: "content"]{@content})))
 
 (define (page content)
     @html{ 
