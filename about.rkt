@@ -12,7 +12,7 @@
     @p{
         I am not a web designer, so please bear with me for the terrible web design. I tried to make the content more readable, the CSS stylesheet 
         of this site is based on (blatantly copied from) @a[href: "http://bettermotherfuckingwebsite.com/"]{this site}. The good news is that unlike
-        some other sites, I won't add any random particle effects whose meaning remains unclear.
+        some other sites, I won't add any suspicious particle effects whose meaning remains unclear.
     }
     @p{
         Opinions expressed are solely my own and do not express the views or opinions of my employer.
