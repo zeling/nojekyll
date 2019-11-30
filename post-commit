@@ -12,8 +12,11 @@ trap on_exit EXIT
 # we only care about commits on master.
 if [ $BRANCH == "master" ] && grep -q "UPDATE" <(git log -1 --oneline); then
     make clean all # it is currently rebuilding everything
+    git stash --all
     git checkout gh-pages
-    git add *.html posts/*.html
+    git checkout stash^3 -- .
+    git stash pop
+    git add -f *.html posts/*.html
     git commit -m "built from $SHA1"
     git push
     git checkout master
