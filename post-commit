@@ -14,9 +14,10 @@ if [ $BRANCH == "master" ] && grep -q "UPDATE" <(git log -1 --oneline); then
     make clean all # it is currently rebuilding everything
     git stash --all
     git checkout gh-pages
+    git checkout stash -- .
     git checkout stash^3 -- .
     git stash drop
-    git add -f *.html posts/*.html
+    git add -f *.html posts/*.html style.css
     git commit -m "built from $SHA1"
     git push
     git checkout master
